@@ -34,8 +34,8 @@ namespace BookStore
             services.AddTransient<IUserManager, UserManager>();
             services.AddTransient<IBookRepository, BookRepository>();
             services.AddTransient<IBookManager, BookManager>();
-            //services.AddTransient<ICartManager, CartManager>();
-            //services.AddTransient<ICartRepository, CartRepository>();
+            services.AddTransient<ICartManager, CartManager>();
+            services.AddTransient<ICartRepository, CartRepository>();
             //services.AddTransient<IWishListManager, WishListManager>();
             //services.AddTransient<IWishListRepository, WishListRepository>();
 
