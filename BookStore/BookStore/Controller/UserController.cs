@@ -123,31 +123,30 @@ namespace BookStore.Controller
             }
         }
 
-        //[HttpPut]
-        //[Route("api/ResetPassword")]
-        //public IActionResult ResetPassword(ResetPassword resetpassword)
-        //{
-        //    var resultMessage = this.manager.ResetPassword(resetpassword);
-        //    try
-        //    {
-        //        this.logger.LogInformation(resetpassword + "is using reset password");
-        //        //var resultMessage = this.manager.ResetPassword(resetpassword);
-        //        if (resultMessage)
-        //        {
-        //            this.logger.LogInformation("Password reseted Successfully for " + resetpassword);
-        //            return this.Ok(new ResponseModel<string>() { Status = true, Message = "Reset passsword is successfull" });
-        //        }
-        //        else
-        //        {
-        //            this.logger.LogInformation("Password Reset Failed!");
-        //            return this.BadRequest(new ResponseModel<string>() { Status = false, Message = "Reset Failed" });
-        //        }
-        //    }
-        //    catch (Exception ex)
-        //    {
-        //        this.logger.LogInformation("Exception occured while using reset password " + ex.Message);
-        //        return this.NotFound(new ResponseModel<string>() { Status = false, Message = ex.Message });
-        //    }
-        //}
+        [HttpPut]
+        [Route("api/ResetPassword")]
+        public IActionResult ResetPassword(ResetPassword resetpassword)
+        {
+            var resultMessage = this.manager.ResetPassword(resetpassword);
+            try
+            {
+                this.logger.LogInformation(resetpassword + "is using reset password");
+                if (resultMessage)
+                {
+                    this.logger.LogInformation("Password reseted Successfully for " + resetpassword);
+                    return this.Ok(new ResponseModel<string>() { Status = true, Message = "Reset passsword is successfull" });
+                }
+                else
+                {
+                    this.logger.LogInformation("Password Reset Failed!");
+                    return this.BadRequest(new ResponseModel<string>() { Status = false, Message = "Reset Failed" });
+                }
+            }
+            catch (Exception ex)
+            {
+                this.logger.LogInformation("Exception occured while using reset password " + ex.Message);
+                return this.NotFound(new ResponseModel<string>() { Status = false, Message = ex.Message });
+            }
+        }
     }
 }

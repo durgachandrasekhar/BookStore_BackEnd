@@ -193,41 +193,41 @@ namespace BookStoreRepository.Repository
             }
         }
 
-        //public bool ResetPassword(ResetPassword resetpassword)
-        // {
-        //     sqlConnection = new SqlConnection(this.configuration.GetConnectionString("UserDbConnection"));
-        //     using (sqlConnection)
-        //         try
-        //         {
-        //             //passing query in terms of stored procedure
-        //             SqlCommand sqlCommand = new SqlCommand("ResetPasssword", sqlConnection);
-        //             //passing command type as stored procedure
-        //             sqlCommand.CommandType = System.Data.CommandType.StoredProcedure;
-        //             sqlConnection.Open();
-        //             //adding the parameter to the strored procedure
-        //             var password = this.EncryptPassword(resetpassword.password);
-        //             sqlCommand.Parameters.AddWithValue("@id", resetpassword._id);
-        //             sqlCommand.Parameters.AddWithValue("@password", password);
-        //             sqlCommand.Parameters.Add("@result", SqlDbType.Int);
-        //             sqlCommand.Parameters["@result"].Direction = ParameterDirection.Output;
-        //             //checking the result
-        //             sqlCommand.ExecuteNonQuery();
+        public bool ResetPassword(ResetPassword resetpassword)
+        {
+            sqlConnection = new SqlConnection(this.configuration.GetConnectionString("UserDbConnection"));
+            using (sqlConnection)
+                try
+                {
+                    //passing query in terms of stored procedure
+                    SqlCommand sqlCommand = new SqlCommand("ResetPasssword", sqlConnection);
+                    //passing command type as stored procedure
+                    sqlCommand.CommandType = System.Data.CommandType.StoredProcedure;
+                    sqlConnection.Open();
+                    //adding the parameter to the strored procedure
+                    var password = this.EncryptPassword(resetpassword.password);
+                    sqlCommand.Parameters.AddWithValue("@id", resetpassword._id);
+                    sqlCommand.Parameters.AddWithValue("@password", password);
+                    sqlCommand.Parameters.Add("@result", SqlDbType.Int);
+                    sqlCommand.Parameters["@result"].Direction = ParameterDirection.Output;
+                    //checking the result
+                    sqlCommand.ExecuteNonQuery();
 
-        //             var result = sqlCommand.Parameters["@result"].Value;
-        //             if (!(result is DBNull))
-        //                 return true;
-        //             else
-        //                 return false;
-        //         }
-        //         catch (ArgumentException ex)
-        //     {
-        //         throw new Exception(ex.Message);
-        //     }
-        //     finally
-        //     {
-        //         sqlConnection.Close();
-        //     }
-        // }
+                    var result = sqlCommand.Parameters["@result"].Value;
+                    if (!(result is DBNull))
+                        return true;
+                    else
+                        return false;
+                }
+                catch (ArgumentException ex)
+                {
+                    throw new Exception(ex.Message);
+                }
+                finally
+                {
+                    sqlConnection.Close();
+                }
+        }
 
         public string GenerateToken(string userName)
         {

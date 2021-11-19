@@ -50,17 +50,17 @@ namespace BookStoreManger.Manager
             }
         }
 
-        //public bool ResetPassword(ResetPassword resetpassword)
-        //{
-        //    try
-        //    {
-        //        return this.repository.ResetPassword(resetpassword);
-        //    }
-        //    catch (Exception ex)
-        //    {
-        //        throw new Exception(ex.Message);
-        //    }
-        //}
+        public bool ResetPassword(ResetPassword resetpassword)
+        {
+            try
+            {
+                return this.repository.ResetPassword(resetpassword);
+            }
+            catch (Exception ex)
+            {
+                throw new Exception(ex.Message);
+            }
+        }
 
         public string GenerateToken(string userName)
         {
