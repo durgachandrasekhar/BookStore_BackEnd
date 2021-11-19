@@ -1,0 +1,232 @@
+﻿2021-11-17 00:12:32.1050 Info Message Template Auto Format enabled
+2021-11-17 00:12:32.1725 Info Loading assembly: NLog.Web.AspNetCore
+2021-11-17 00:12:32.3321 Info Adding target FileTarget(Name=allfile)
+2021-11-17 00:12:32.3321 Info Adding target FileTarget(Name=ownFile-web)
+2021-11-17 00:12:32.4051 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'lifetimeConsole' not found for logging rule: Microsoft.Hosting.Lifetime.
+2021-11-17 00:12:32.4529 Info Validating config: TargetNames=allfile, ownFile-web, ConfigItems=54, FilePath=C:\Users\SHIVA KUMAR\source\repos\BookStore\BookStore\bin\Debug\netcoreapp3.1\NLog.config
+2021-11-17 00:12:32.5445 Info Configuration initialized.
+2021-11-17 00:12:32.5445 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.12.301. Product version: 4.7.12+1c2aa4e3677a17a65b73beee5881e8b8e1b7fc18. GlobalAssemblyCache: False
+2021-11-17 00:17:06.2084 Info Message Template Auto Format enabled
+2021-11-17 00:17:06.2197 Info Loading assembly: NLog.Web.AspNetCore
+2021-11-17 00:17:06.2815 Info Adding target FileTarget(Name=allfile)
+2021-11-17 00:17:06.2815 Info Adding target FileTarget(Name=ownFile-web)
+2021-11-17 00:17:06.2966 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'lifetimeConsole' not found for logging rule: Microsoft.Hosting.Lifetime.
+2021-11-17 00:17:06.3202 Info Validating config: TargetNames=allfile, ownFile-web, ConfigItems=54, FilePath=C:\Users\SHIVA KUMAR\source\repos\BookStore\BookStore\bin\Debug\netcoreapp3.1\NLog.config
+2021-11-17 00:17:06.3451 Info Configuration initialized.
+2021-11-17 00:17:06.3451 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.12.301. Product version: 4.7.12+1c2aa4e3677a17a65b73beee5881e8b8e1b7fc18. GlobalAssemblyCache: False
+2021-11-17 00:19:55.3084 Info Message Template Auto Format enabled
+2021-11-17 00:19:55.3180 Info Loading assembly: NLog.Web.AspNetCore
+2021-11-17 00:19:55.3816 Info Adding target FileTarget(Name=allfile)
+2021-11-17 00:19:55.3951 Info Adding target FileTarget(Name=ownFile-web)
+2021-11-17 00:19:55.4069 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'lifetimeConsole' not found for logging rule: Microsoft.Hosting.Lifetime.
+2021-11-17 00:19:55.4261 Info Validating config: TargetNames=allfile, ownFile-web, ConfigItems=54, FilePath=C:\Users\SHIVA KUMAR\source\repos\BookStore\BookStore\bin\Debug\netcoreapp3.1\NLog.config
+2021-11-17 00:19:55.4467 Info Configuration initialized.
+2021-11-17 00:19:55.4467 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.12.301. Product version: 4.7.12+1c2aa4e3677a17a65b73beee5881e8b8e1b7fc18. GlobalAssemblyCache: False
+2021-11-17 00:21:53.3619 Info Message Template Auto Format enabled
+2021-11-17 00:21:53.3782 Info Loading assembly: NLog.Web.AspNetCore
+2021-11-17 00:21:53.4466 Info Adding target FileTarget(Name=allfile)
+2021-11-17 00:21:53.4466 Info Adding target FileTarget(Name=ownFile-web)
+2021-11-17 00:21:53.4628 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'lifetimeConsole' not found for logging rule: Microsoft.Hosting.Lifetime.
+2021-11-17 00:21:53.4890 Info Validating config: TargetNames=allfile, ownFile-web, ConfigItems=54, FilePath=C:\Users\SHIVA KUMAR\source\repos\BookStore\BookStore\bin\Debug\netcoreapp3.1\NLog.config
+2021-11-17 00:21:53.5154 Info Configuration initialized.
+2021-11-17 00:21:53.5154 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.12.301. Product version: 4.7.12+1c2aa4e3677a17a65b73beee5881e8b8e1b7fc18. GlobalAssemblyCache: False
+2021-11-17 00:39:53.6463 Info Message Template Auto Format enabled
+2021-11-17 00:39:53.6631 Info Loading assembly: NLog.Web.AspNetCore
+2021-11-17 00:39:53.7325 Info Adding target FileTarget(Name=allfile)
+2021-11-17 00:39:53.7358 Info Adding target FileTarget(Name=ownFile-web)
+2021-11-17 00:39:53.7358 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'lifetimeConsole' not found for logging rule: Microsoft.Hosting.Lifetime.
+2021-11-17 00:39:53.7973 Info Validating config: TargetNames=allfile, ownFile-web, ConfigItems=54, FilePath=C:\Users\SHIVA KUMAR\source\repos\BookStore\BookStore\bin\Debug\netcoreapp3.1\NLog.config
+2021-11-17 00:39:53.8319 Info Configuration initialized.
+2021-11-17 00:39:53.8319 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.12.301. Product version: 4.7.12+1c2aa4e3677a17a65b73beee5881e8b8e1b7fc18. GlobalAssemblyCache: False
+2021-11-17 08:08:13.9566 Info Message Template Auto Format enabled
+2021-11-17 08:08:14.0334 Info Loading assembly: NLog.Web.AspNetCore
+2021-11-17 08:08:14.1578 Info Adding target FileTarget(Name=allfile)
+2021-11-17 08:08:14.1600 Info Adding target FileTarget(Name=ownFile-web)
+2021-11-17 08:08:14.1758 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'lifetimeConsole' not found for logging rule: Microsoft.Hosting.Lifetime.
+2021-11-17 08:08:14.1980 Info Validating config: TargetNames=allfile, ownFile-web, ConfigItems=54, FilePath=C:\Users\SHIVA KUMAR\source\repos\BookStore\BookStore\bin\Debug\netcoreapp3.1\NLog.config
+2021-11-17 08:08:14.2196 Info Configuration initialized.
+2021-11-17 08:08:14.2218 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.12.301. Product version: 4.7.12+1c2aa4e3677a17a65b73beee5881e8b8e1b7fc18. GlobalAssemblyCache: False
+2021-11-17 08:15:57.8482 Info Message Template Auto Format enabled
+2021-11-17 08:15:57.8482 Info Loading assembly: NLog.Web.AspNetCore
+2021-11-17 08:15:57.9194 Info Adding target FileTarget(Name=allfile)
+2021-11-17 08:15:57.9194 Info Adding target FileTarget(Name=ownFile-web)
+2021-11-17 08:15:57.9373 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'lifetimeConsole' not found for logging rule: Microsoft.Hosting.Lifetime.
+2021-11-17 08:15:57.9591 Info Validating config: TargetNames=allfile, ownFile-web, ConfigItems=54, FilePath=C:\Users\SHIVA KUMAR\source\repos\BookStore\BookStore\bin\Debug\netcoreapp3.1\NLog.config
+2021-11-17 08:15:57.9837 Info Configuration initialized.
+2021-11-17 08:15:57.9837 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.12.301. Product version: 4.7.12+1c2aa4e3677a17a65b73beee5881e8b8e1b7fc18. GlobalAssemblyCache: False
+2021-11-17 08:30:05.0990 Info Message Template Auto Format enabled
+2021-11-17 08:30:05.0990 Info Loading assembly: NLog.Web.AspNetCore
+2021-11-17 08:30:05.1598 Info Adding target FileTarget(Name=allfile)
+2021-11-17 08:30:05.1598 Info Adding target FileTarget(Name=ownFile-web)
+2021-11-17 08:30:05.1764 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'lifetimeConsole' not found for logging rule: Microsoft.Hosting.Lifetime.
+2021-11-17 08:30:05.1989 Info Validating config: TargetNames=allfile, ownFile-web, ConfigItems=54, FilePath=C:\Users\SHIVA KUMAR\source\repos\BookStore\BookStore\bin\Debug\netcoreapp3.1\NLog.config
+2021-11-17 08:30:05.2207 Info Configuration initialized.
+2021-11-17 08:30:05.2207 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.12.301. Product version: 4.7.12+1c2aa4e3677a17a65b73beee5881e8b8e1b7fc18. GlobalAssemblyCache: False
+2021-11-17 08:58:15.7698 Info Message Template Auto Format enabled
+2021-11-17 08:58:15.7859 Info Loading assembly: NLog.Web.AspNetCore
+2021-11-17 08:58:15.8425 Info Adding target FileTarget(Name=allfile)
+2021-11-17 08:58:15.8425 Info Adding target FileTarget(Name=ownFile-web)
+2021-11-17 08:58:15.8595 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'lifetimeConsole' not found for logging rule: Microsoft.Hosting.Lifetime.
+2021-11-17 08:58:15.9057 Info Validating config: TargetNames=allfile, ownFile-web, ConfigItems=54, FilePath=C:\Users\SHIVA KUMAR\source\repos\BookStore\BookStore\bin\Debug\netcoreapp3.1\NLog.config
+2021-11-17 08:58:15.9293 Info Configuration initialized.
+2021-11-17 08:58:15.9293 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.12.301. Product version: 4.7.12+1c2aa4e3677a17a65b73beee5881e8b8e1b7fc18. GlobalAssemblyCache: False
+2021-11-17 12:38:47.3885 Info Message Template Auto Format enabled
+2021-11-17 12:38:47.4299 Info Loading assembly: NLog.Web.AspNetCore
+2021-11-17 12:38:47.5623 Info Adding target FileTarget(Name=allfile)
+2021-11-17 12:38:47.5652 Info Adding target FileTarget(Name=ownFile-web)
+2021-11-17 12:38:47.6077 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'lifetimeConsole' not found for logging rule: Microsoft.Hosting.Lifetime.
+2021-11-17 12:38:47.6334 Info Validating config: TargetNames=allfile, ownFile-web, ConfigItems=54, FilePath=C:\Users\SHIVA KUMAR\source\repos\BookStore\BookStore\bin\Debug\netcoreapp3.1\NLog.config
+2021-11-17 12:38:47.6598 Info Configuration initialized.
+2021-11-17 12:38:47.6598 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.12.301. Product version: 4.7.12+1c2aa4e3677a17a65b73beee5881e8b8e1b7fc18. GlobalAssemblyCache: False
+2021-11-17 12:50:54.0181 Info Message Template Auto Format enabled
+2021-11-17 12:50:54.0181 Info Loading assembly: NLog.Web.AspNetCore
+2021-11-17 12:50:54.0803 Info Adding target FileTarget(Name=allfile)
+2021-11-17 12:50:54.0803 Info Adding target FileTarget(Name=ownFile-web)
+2021-11-17 12:50:54.0803 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'lifetimeConsole' not found for logging rule: Microsoft.Hosting.Lifetime.
+2021-11-17 12:50:54.1177 Info Validating config: TargetNames=allfile, ownFile-web, ConfigItems=54, FilePath=C:\Users\SHIVA KUMAR\source\repos\BookStore\BookStore\bin\Debug\netcoreapp3.1\NLog.config
+2021-11-17 12:50:54.1424 Info Configuration initialized.
+2021-11-17 12:50:54.1435 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.12.301. Product version: 4.7.12+1c2aa4e3677a17a65b73beee5881e8b8e1b7fc18. GlobalAssemblyCache: False
+2021-11-17 13:26:34.3372 Info Message Template Auto Format enabled
+2021-11-17 13:26:34.3540 Info Loading assembly: NLog.Web.AspNetCore
+2021-11-17 13:26:34.5581 Info Adding target FileTarget(Name=allfile)
+2021-11-17 13:26:34.5581 Info Adding target FileTarget(Name=ownFile-web)
+2021-11-17 13:26:34.5759 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'lifetimeConsole' not found for logging rule: Microsoft.Hosting.Lifetime.
+2021-11-17 13:26:34.6001 Info Validating config: TargetNames=allfile, ownFile-web, ConfigItems=54, FilePath=C:\Users\SHIVA KUMAR\source\repos\BookStore\BookStore\bin\Debug\netcoreapp3.1\NLog.config
+2021-11-17 13:26:34.6233 Info Configuration initialized.
+2021-11-17 13:26:34.6233 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.12.301. Product version: 4.7.12+1c2aa4e3677a17a65b73beee5881e8b8e1b7fc18. GlobalAssemblyCache: False
+2021-11-17 15:36:05.9640 Info Message Template Auto Format enabled
+2021-11-17 15:36:06.0388 Info Loading assembly: NLog.Web.AspNetCore
+2021-11-17 15:36:06.2156 Info Adding target FileTarget(Name=allfile)
+2021-11-17 15:36:06.2156 Info Adding target FileTarget(Name=ownFile-web)
+2021-11-17 15:36:06.2476 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'lifetimeConsole' not found for logging rule: Microsoft.Hosting.Lifetime.
+2021-11-17 15:36:06.2907 Info Validating config: TargetNames=allfile, ownFile-web, ConfigItems=54, FilePath=C:\Users\SHIVA KUMAR\source\repos\BookStore\BookStore\bin\Debug\netcoreapp3.1\NLog.config
+2021-11-17 15:36:06.3444 Info Configuration initialized.
+2021-11-17 15:36:06.3455 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.12.301. Product version: 4.7.12+1c2aa4e3677a17a65b73beee5881e8b8e1b7fc18. GlobalAssemblyCache: False
+2021-11-17 15:46:26.0948 Info Message Template Auto Format enabled
+2021-11-17 15:46:26.1068 Info Loading assembly: NLog.Web.AspNetCore
+2021-11-17 15:46:26.2113 Info Adding target FileTarget(Name=allfile)
+2021-11-17 15:46:26.2113 Info Adding target FileTarget(Name=ownFile-web)
+2021-11-17 15:46:26.2353 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'lifetimeConsole' not found for logging rule: Microsoft.Hosting.Lifetime.
+2021-11-17 15:46:26.2620 Info Validating config: TargetNames=allfile, ownFile-web, ConfigItems=54, FilePath=C:\Users\SHIVA KUMAR\source\repos\BookStore\BookStore\bin\Debug\netcoreapp3.1\NLog.config
+2021-11-17 15:46:26.2861 Info Configuration initialized.
+2021-11-17 15:46:26.2861 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.12.301. Product version: 4.7.12+1c2aa4e3677a17a65b73beee5881e8b8e1b7fc18. GlobalAssemblyCache: False
+2021-11-17 15:56:56.2537 Info Message Template Auto Format enabled
+2021-11-17 15:56:56.2689 Info Loading assembly: NLog.Web.AspNetCore
+2021-11-17 15:56:56.3678 Info Adding target FileTarget(Name=allfile)
+2021-11-17 15:56:56.3678 Info Adding target FileTarget(Name=ownFile-web)
+2021-11-17 15:56:56.3981 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'lifetimeConsole' not found for logging rule: Microsoft.Hosting.Lifetime.
+2021-11-17 15:56:56.4299 Info Validating config: TargetNames=allfile, ownFile-web, ConfigItems=54, FilePath=C:\Users\SHIVA KUMAR\source\repos\BookStore\BookStore\bin\Debug\netcoreapp3.1\NLog.config
+2021-11-17 15:56:56.4564 Info Configuration initialized.
+2021-11-17 15:56:56.4564 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.12.301. Product version: 4.7.12+1c2aa4e3677a17a65b73beee5881e8b8e1b7fc18. GlobalAssemblyCache: False
+2021-11-17 18:54:30.8472 Info Message Template Auto Format enabled
+2021-11-17 18:54:30.8803 Info Loading assembly: NLog.Web.AspNetCore
+2021-11-17 18:54:30.9482 Info Adding target FileTarget(Name=allfile)
+2021-11-17 18:54:30.9482 Info Adding target FileTarget(Name=ownFile-web)
+2021-11-17 18:54:30.9678 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'lifetimeConsole' not found for logging rule: Microsoft.Hosting.Lifetime.
+2021-11-17 18:54:31.0129 Info Validating config: TargetNames=allfile, ownFile-web, ConfigItems=54, FilePath=C:\Users\SHIVA KUMAR\source\repos\BookStore\BookStore\bin\Debug\netcoreapp3.1\NLog.config
+2021-11-17 18:54:31.0361 Info Configuration initialized.
+2021-11-17 18:54:31.0361 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.12.301. Product version: 4.7.12+1c2aa4e3677a17a65b73beee5881e8b8e1b7fc18. GlobalAssemblyCache: False
+2021-11-17 18:55:27.4361 Info Message Template Auto Format enabled
+2021-11-17 18:55:27.4475 Info Loading assembly: NLog.Web.AspNetCore
+2021-11-17 18:55:27.5012 Info Adding target FileTarget(Name=allfile)
+2021-11-17 18:55:27.5040 Info Adding target FileTarget(Name=ownFile-web)
+2021-11-17 18:55:27.5040 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'lifetimeConsole' not found for logging rule: Microsoft.Hosting.Lifetime.
+2021-11-17 18:55:27.5387 Info Validating config: TargetNames=allfile, ownFile-web, ConfigItems=54, FilePath=C:\Users\SHIVA KUMAR\source\repos\BookStore\BookStore\bin\Debug\netcoreapp3.1\NLog.config
+2021-11-17 18:55:27.5624 Info Configuration initialized.
+2021-11-17 18:55:27.5624 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.12.301. Product version: 4.7.12+1c2aa4e3677a17a65b73beee5881e8b8e1b7fc18. GlobalAssemblyCache: False
+2021-11-17 22:48:32.5032 Info Message Template Auto Format enabled
+2021-11-17 22:48:32.5032 Info Loading assembly: NLog.Web.AspNetCore
+2021-11-17 22:48:32.5645 Info Adding target FileTarget(Name=allfile)
+2021-11-17 22:48:32.5645 Info Adding target FileTarget(Name=ownFile-web)
+2021-11-17 22:48:32.5645 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'lifetimeConsole' not found for logging rule: Microsoft.Hosting.Lifetime.
+2021-11-17 22:48:32.6018 Info Validating config: TargetNames=allfile, ownFile-web, ConfigItems=54, FilePath=C:\Users\SHIVA KUMAR\source\repos\BookStore\BookStore\bin\Debug\netcoreapp3.1\NLog.config
+2021-11-17 22:48:32.6453 Info Configuration initialized.
+2021-11-17 22:48:32.6453 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.12.301. Product version: 4.7.12+1c2aa4e3677a17a65b73beee5881e8b8e1b7fc18. GlobalAssemblyCache: False
+2021-11-18 09:41:08.9657 Info Message Template Auto Format enabled
+2021-11-18 09:41:09.0155 Info Loading assembly: NLog.Web.AspNetCore
+2021-11-18 09:41:09.1449 Info Adding target FileTarget(Name=allfile)
+2021-11-18 09:41:09.1449 Info Adding target FileTarget(Name=ownFile-web)
+2021-11-18 09:41:09.1689 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'lifetimeConsole' not found for logging rule: Microsoft.Hosting.Lifetime.
+2021-11-18 09:41:09.1944 Info Validating config: TargetNames=allfile, ownFile-web, ConfigItems=54, FilePath=C:\Users\SHIVA KUMAR\source\repos\BookStore\BookStore\bin\Debug\netcoreapp3.1\NLog.config
+2021-11-18 09:41:09.2189 Info Configuration initialized.
+2021-11-18 09:41:09.2189 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.12.301. Product version: 4.7.12+1c2aa4e3677a17a65b73beee5881e8b8e1b7fc18. GlobalAssemblyCache: False
+2021-11-18 09:59:23.1211 Info Message Template Auto Format enabled
+2021-11-18 09:59:23.1368 Info Loading assembly: NLog.Web.AspNetCore
+2021-11-18 09:59:23.2018 Info Adding target FileTarget(Name=allfile)
+2021-11-18 09:59:23.2018 Info Adding target FileTarget(Name=ownFile-web)
+2021-11-18 09:59:23.2204 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'lifetimeConsole' not found for logging rule: Microsoft.Hosting.Lifetime.
+2021-11-18 09:59:23.2456 Info Validating config: TargetNames=allfile, ownFile-web, ConfigItems=54, FilePath=C:\Users\SHIVA KUMAR\source\repos\BookStore\BookStore\bin\Debug\netcoreapp3.1\NLog.config
+2021-11-18 09:59:23.2737 Info Configuration initialized.
+2021-11-18 09:59:23.2737 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.12.301. Product version: 4.7.12+1c2aa4e3677a17a65b73beee5881e8b8e1b7fc18. GlobalAssemblyCache: False
+2021-11-18 10:08:06.8459 Info Message Template Auto Format enabled
+2021-11-18 10:08:06.8614 Info Loading assembly: NLog.Web.AspNetCore
+2021-11-18 10:08:06.9262 Info Adding target FileTarget(Name=allfile)
+2021-11-18 10:08:06.9262 Info Adding target FileTarget(Name=ownFile-web)
+2021-11-18 10:08:06.9470 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'lifetimeConsole' not found for logging rule: Microsoft.Hosting.Lifetime.
+2021-11-18 10:08:06.9753 Info Validating config: TargetNames=allfile, ownFile-web, ConfigItems=54, FilePath=C:\Users\SHIVA KUMAR\source\repos\BookStore\BookStore\bin\Debug\netcoreapp3.1\NLog.config
+2021-11-18 10:08:07.0023 Info Configuration initialized.
+2021-11-18 10:08:07.0023 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.12.301. Product version: 4.7.12+1c2aa4e3677a17a65b73beee5881e8b8e1b7fc18. GlobalAssemblyCache: False
+2021-11-18 10:11:52.2152 Info Message Template Auto Format enabled
+2021-11-18 10:11:52.2317 Info Loading assembly: NLog.Web.AspNetCore
+2021-11-18 10:11:52.2970 Info Adding target FileTarget(Name=allfile)
+2021-11-18 10:11:52.2970 Info Adding target FileTarget(Name=ownFile-web)
+2021-11-18 10:11:52.3129 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'lifetimeConsole' not found for logging rule: Microsoft.Hosting.Lifetime.
+2021-11-18 10:11:52.3377 Info Validating config: TargetNames=allfile, ownFile-web, ConfigItems=54, FilePath=C:\Users\SHIVA KUMAR\source\repos\BookStore\BookStore\bin\Debug\netcoreapp3.1\NLog.config
+2021-11-18 10:11:52.3600 Info Configuration initialized.
+2021-11-18 10:11:52.3600 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.12.301. Product version: 4.7.12+1c2aa4e3677a17a65b73beee5881e8b8e1b7fc18. GlobalAssemblyCache: False
+2021-11-18 10:28:08.9027 Info Message Template Auto Format enabled
+2021-11-18 10:28:08.9130 Info Loading assembly: NLog.Web.AspNetCore
+2021-11-18 10:28:08.9638 Info Adding target FileTarget(Name=allfile)
+2021-11-18 10:28:08.9638 Info Adding target FileTarget(Name=ownFile-web)
+2021-11-18 10:28:08.9779 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'lifetimeConsole' not found for logging rule: Microsoft.Hosting.Lifetime.
+2021-11-18 10:28:09.0011 Info Validating config: TargetNames=allfile, ownFile-web, ConfigItems=54, FilePath=C:\Users\SHIVA KUMAR\source\repos\BookStore\BookStore\bin\Debug\netcoreapp3.1\NLog.config
+2021-11-18 10:28:09.0312 Info Configuration initialized.
+2021-11-18 10:28:09.0312 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.12.301. Product version: 4.7.12+1c2aa4e3677a17a65b73beee5881e8b8e1b7fc18. GlobalAssemblyCache: False
+2021-11-18 11:28:25.3871 Info Message Template Auto Format enabled
+2021-11-18 11:28:25.3993 Info Loading assembly: NLog.Web.AspNetCore
+2021-11-18 11:28:25.4593 Info Adding target FileTarget(Name=allfile)
+2021-11-18 11:28:25.4593 Info Adding target FileTarget(Name=ownFile-web)
+2021-11-18 11:28:25.4743 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'lifetimeConsole' not found for logging rule: Microsoft.Hosting.Lifetime.
+2021-11-18 11:28:25.4952 Info Validating config: TargetNames=allfile, ownFile-web, ConfigItems=54, FilePath=C:\Users\SHIVA KUMAR\source\repos\BookStore\BookStore\bin\Debug\netcoreapp3.1\NLog.config
+2021-11-18 11:28:25.5159 Info Configuration initialized.
+2021-11-18 11:28:25.5159 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.12.301. Product version: 4.7.12+1c2aa4e3677a17a65b73beee5881e8b8e1b7fc18. GlobalAssemblyCache: False
+2021-11-18 11:43:52.1308 Info Message Template Auto Format enabled
+2021-11-18 11:43:52.1422 Info Loading assembly: NLog.Web.AspNetCore
+2021-11-18 11:43:52.2058 Info Adding target FileTarget(Name=allfile)
+2021-11-18 11:43:52.2058 Info Adding target FileTarget(Name=ownFile-web)
+2021-11-18 11:43:52.2269 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'lifetimeConsole' not found for logging rule: Microsoft.Hosting.Lifetime.
+2021-11-18 11:43:52.2506 Info Validating config: TargetNames=allfile, ownFile-web, ConfigItems=54, FilePath=C:\Users\SHIVA KUMAR\source\repos\BookStore\BookStore\bin\Debug\netcoreapp3.1\NLog.config
+2021-11-18 11:43:52.2735 Info Configuration initialized.
+2021-11-18 11:43:52.2735 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.12.301. Product version: 4.7.12+1c2aa4e3677a17a65b73beee5881e8b8e1b7fc18. GlobalAssemblyCache: False
+2021-11-18 12:22:02.3116 Info Message Template Auto Format enabled
+2021-11-18 12:22:02.3116 Info Loading assembly: NLog.Web.AspNetCore
+2021-11-18 12:22:02.4067 Info Adding target FileTarget(Name=allfile)
+2021-11-18 12:22:02.4067 Info Adding target FileTarget(Name=ownFile-web)
+2021-11-18 12:22:02.4236 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'lifetimeConsole' not found for logging rule: Microsoft.Hosting.Lifetime.
+2021-11-18 12:22:02.4589 Info Validating config: TargetNames=allfile, ownFile-web, ConfigItems=54, FilePath=C:\Users\SHIVA KUMAR\source\repos\BookStore\BookStore\bin\Debug\netcoreapp3.1\NLog.config
+2021-11-18 12:22:02.4873 Info Configuration initialized.
+2021-11-18 12:22:02.4873 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.12.301. Product version: 4.7.12+1c2aa4e3677a17a65b73beee5881e8b8e1b7fc18. GlobalAssemblyCache: False
+2021-11-18 13:03:38.8481 Info Message Template Auto Format enabled
+2021-11-18 13:03:38.8599 Info Loading assembly: NLog.Web.AspNetCore
+2021-11-18 13:03:38.9108 Info Adding target FileTarget(Name=allfile)
+2021-11-18 13:03:38.9108 Info Adding target FileTarget(Name=ownFile-web)
+2021-11-18 13:03:38.9269 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'lifetimeConsole' not found for logging rule: Microsoft.Hosting.Lifetime.
+2021-11-18 13:03:38.9566 Info Validating config: TargetNames=allfile, ownFile-web, ConfigItems=54, FilePath=C:\Users\SHIVA KUMAR\source\repos\BookStore\BookStore\bin\Debug\netcoreapp3.1\NLog.config
+2021-11-18 13:03:38.9881 Info Configuration initialized.
+2021-11-18 13:03:38.9881 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.12.301. Product version: 4.7.12+1c2aa4e3677a17a65b73beee5881e8b8e1b7fc18. GlobalAssemblyCache: False
+2021-11-18 13:18:02.1707 Info Message Template Auto Format enabled
+2021-11-18 13:18:02.1707 Info Loading assembly: NLog.Web.AspNetCore
+2021-11-18 13:18:02.2346 Info Adding target FileTarget(Name=allfile)
+2021-11-18 13:18:02.2346 Info Adding target FileTarget(Name=ownFile-web)
+2021-11-18 13:18:02.2346 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'lifetimeConsole' not found for logging rule: Microsoft.Hosting.Lifetime.
+2021-11-18 13:18:02.2683 Info Validating config: TargetNames=allfile, ownFile-web, ConfigItems=54, FilePath=C:\Users\SHIVA KUMAR\source\repos\BookStore\BookStore\bin\Debug\netcoreapp3.1\NLog.config
+2021-11-18 13:18:02.2940 Info Configuration initialized.
+2021-11-18 13:18:02.2958 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.12.301. Product version: 4.7.12+1c2aa4e3677a17a65b73beee5881e8b8e1b7fc18. GlobalAssemblyCache: False
+2021-11-18 16:30:57.8205 Info Message Template Auto Format enabled
+2021-11-18 16:30:57.8502 Info Loading assembly: NLog.Web.AspNetCore
+2021-11-18 16:30:57.9219 Info Adding target FileTarget(Name=allfile)
+2021-11-18 16:30:57.9219 Info Adding target FileTarget(Name=ownFile-web)
+2021-11-18 16:30:57.9422 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'lifetimeConsole' not found for logging rule: Microsoft.Hosting.Lifetime.
+2021-11-18 16:30:57.9725 Info Validating config: TargetNames=allfile, ownFile-web, ConfigItems=54, FilePath=C:\Users\SHIVA KUMAR\source\repos\BookStore\BookStore\bin\Debug\netcoreapp3.1\NLog.config
+2021-11-18 16:30:58.0020 Info Configuration initialized.
+2021-11-18 16:30:58.0020 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.12.301. Product version: 4.7.12+1c2aa4e3677a17a65b73beee5881e8b8e1b7fc18. GlobalAssemblyCache: False

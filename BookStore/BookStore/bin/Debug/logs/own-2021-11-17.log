@@ -1,0 +1,142 @@
+2021-11-17 00:12:34.9476|6|FATAL|Microsoft.AspNetCore.Hosting.Diagnostics|Application startup exception System.InvalidOperationException: Unable to resolve service for type 'Microsoft.AspNetCore.Session.ISessionStore' while attempting to activate 'Microsoft.AspNetCore.Session.SessionMiddleware'.
+   at Microsoft.Extensions.Internal.ActivatorUtilities.ConstructorMatcher.CreateInstance(IServiceProvider provider)
+   at Microsoft.Extensions.Internal.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass4_0.<UseMiddleware>b__0(RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)|url: |action: |
+2021-11-17 00:17:06.9347|6|FATAL|Microsoft.AspNetCore.Hosting.Diagnostics|Application startup exception System.InvalidOperationException: Unable to resolve service for type 'Microsoft.AspNetCore.Session.ISessionStore' while attempting to activate 'Microsoft.AspNetCore.Session.SessionMiddleware'.
+   at Microsoft.Extensions.Internal.ActivatorUtilities.ConstructorMatcher.CreateInstance(IServiceProvider provider)
+   at Microsoft.Extensions.Internal.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass4_0.<UseMiddleware>b__0(RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)|url: |action: |
+2021-11-17 00:19:55.9734|6|FATAL|Microsoft.AspNetCore.Hosting.Diagnostics|Application startup exception System.InvalidOperationException: Unable to resolve service for type 'Microsoft.AspNetCore.Session.ISessionStore' while attempting to activate 'Microsoft.AspNetCore.Session.SessionMiddleware'.
+   at Microsoft.Extensions.Internal.ActivatorUtilities.ConstructorMatcher.CreateInstance(IServiceProvider provider)
+   at Microsoft.Extensions.Internal.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass4_0.<UseMiddleware>b__0(RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)|url: |action: |
+2021-11-17 00:21:53.9448|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |
+2021-11-17 00:21:54.0196|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |
+2021-11-17 00:21:54.0424|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\SHIVA KUMAR\source\repos\BookStore\BookStore |url: |action: |
+2021-11-17 00:22:53.7596|0|INFO|BookStore.Controller.UserController|durgachandrasekhar3@gmail.comIs trying to login |url: |action: |
+2021-11-17 00:22:55.1434|0|INFO|BookStore.Controller.UserController|Exception occured while logging in Could not find stored procedure 'StoreProcedureLogin'. |url: |action: |
+2021-11-17 00:23:37.2514|0|INFO|BookStore.Controller.UserController|durgachandrasekhar3@gmail.comIs trying to login |url: |action: |
+2021-11-17 00:23:37.4331|0|INFO|BookStore.Controller.UserController|Exception occured while logging in Could not find stored procedure 'StoreProcedureLogin'. |url: |action: |
+2021-11-17 00:24:27.9701|0|INFO|BookStore.Controller.UserController|durgachandrasekhar3@gmail.comIs trying to login |url: |action: |
+2021-11-17 00:24:43.1414|0|INFO|BookStore.Controller.UserController|Exception occured while logging in It was not possible to connect to the redis server(s). Error connecting right now. To allow this multiplexer to continue retrying until it's able to connect, use abortConnect=false in your connection string or AbortOnConnectFail=false; in your code. |url: |action: |
+2021-11-17 00:25:34.4270|0|INFO|BookStore.Controller.UserController|durgachandrasekhar3@gmail.comIs trying to login |url: |action: |
+2021-11-17 00:25:35.1198|0|INFO|BookStore.Controller.UserController|Exception occured while logging in Unable to cast object of type 'System.Int64' to type 'System.String'. |url: |action: |
+2021-11-17 00:33:24.0966|0|INFO|BookStore.Controller.UserController|durgachandrasekhar3@gmail.comIs trying to login |url: |action: |
+2021-11-17 00:33:24.3425|0|INFO|BookStore.Controller.UserController|Exception occured while logging in Unable to cast object of type 'System.Int64' to type 'System.String'. |url: |action: |
+2021-11-17 00:34:44.4891|0|INFO|BookStore.Controller.UserController|durgachandrasekhar3@gmail.comIs trying to login |url: |action: |
+2021-11-17 00:34:44.7512|0|INFO|BookStore.Controller.UserController|Exception occured while logging in Unable to cast object of type 'System.Int64' to type 'System.String'. |url: |action: |
+2021-11-17 00:34:50.3619|0|INFO|BookStore.Controller.UserController|durgachandrasekhar3@gmail.comIs trying to login |url: |action: |
+2021-11-17 00:34:50.5438|0|INFO|BookStore.Controller.UserController|Exception occured while logging in Unable to cast object of type 'System.Int64' to type 'System.String'. |url: |action: |
+2021-11-17 00:35:03.8713|0|INFO|BookStore.Controller.UserController|durgachandrasekhar3@gmail.comIs trying to login |url: |action: |
+2021-11-17 00:35:04.0691|0|INFO|BookStore.Controller.UserController|Exception occured while logging in Unable to cast object of type 'System.Int64' to type 'System.String'. |url: |action: |
+2021-11-17 00:39:54.4927|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |
+2021-11-17 00:39:54.5983|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |
+2021-11-17 00:39:54.6106|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\SHIVA KUMAR\source\repos\BookStore\BookStore |url: |action: |
+2021-11-17 00:40:27.0727|0|INFO|BookStore.Controller.UserController|durgachandrasekhar3@gmail.comIs trying to login |url: |action: |
+2021-11-17 00:40:27.9535|0|INFO|BookStore.Controller.UserController|Exception occured while logging in Unable to cast object of type 'System.Int64' to type 'System.String'. |url: |action: |
+2021-11-17 00:44:01.4410|0|INFO|BookStore.Controller.UserController|durgachandrasekhar3@gmail.comIs trying to login |url: |action: |
+2021-11-17 00:44:01.6716|0|INFO|BookStore.Controller.UserController|Exception occured while logging in Unable to cast object of type 'System.Int64' to type 'System.String'. |url: |action: |
+2021-11-17 00:44:44.9911|0|INFO|BookStore.Controller.UserController|durgachandrasekharIs trying to Register |url: |action: |
+2021-11-17 00:46:43.0488|0|INFO|BookStore.Controller.UserController|durgachandrasekhar3@gmail.comIs trying to login |url: |action: |
+2021-11-17 00:46:43.2421|0|INFO|BookStore.Controller.UserController|Exception occured while logging in Unable to cast object of type 'System.Int64' to type 'System.String'. |url: |action: |
+2021-11-17 00:47:02.5562|0|INFO|BookStore.Controller.UserController|durgachandrasekhar3@gmail.comIs trying to login |url: |action: |
+2021-11-17 00:47:02.7746|0|INFO|BookStore.Controller.UserController|Exception occured while logging in Unable to cast object of type 'System.Int64' to type 'System.String'. |url: |action: |
+2021-11-17 08:08:15.9365|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |
+2021-11-17 08:08:16.0352|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |
+2021-11-17 08:08:16.0352|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\SHIVA KUMAR\source\repos\BookStore\BookStore |url: |action: |
+2021-11-17 08:09:29.8633|0|INFO|BookStore.Controller.UserController|durgachandrasekhar3@gmail.comIs trying to login |url: |action: |
+2021-11-17 08:10:04.2359|0|INFO|BookStore.Controller.UserController|Exception occured while logging in Unable to cast object of type 'System.Int64' to type 'System.String'. |url: |action: |
+2021-11-17 08:10:09.6402|0|INFO|BookStore.Controller.UserController|durgachandrasekhar3@gmail.comIs trying to login |url: |action: |
+2021-11-17 08:10:09.8430|0|INFO|BookStore.Controller.UserController|Exception occured while logging in Unable to cast object of type 'System.Int64' to type 'System.String'. |url: |action: |
+2021-11-17 08:15:58.4874|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |
+2021-11-17 08:15:58.5376|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |
+2021-11-17 08:15:58.5376|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\SHIVA KUMAR\source\repos\BookStore\BookStore |url: |action: |
+2021-11-17 08:30:05.6851|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |
+2021-11-17 08:30:05.7485|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |
+2021-11-17 08:30:05.7607|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\SHIVA KUMAR\source\repos\BookStore\BookStore |url: |action: |
+2021-11-17 08:30:36.6891|0|INFO|BookStore.Controller.UserController|duurgachandrasekhar3@gmail.comIs trying to login |url: |action: |
+2021-11-17 08:30:42.1285|0|INFO|BookStore.Controller.UserController|duurgachandrasekhar3@gmail.com Login Failed |url: |action: |
+2021-11-17 08:30:55.9614|0|INFO|BookStore.Controller.UserController|durgachandrasekhar3@gmail.comIs trying to login |url: |action: |
+2021-11-17 08:30:56.3388|0|INFO|BookStore.Controller.UserController|durgachandrasekhar3@gmail.com logged in successfully and the token generated is  |url: |action: |
+2021-11-17 08:58:16.4469|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |
+2021-11-17 08:58:16.5061|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |
+2021-11-17 08:58:16.5262|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\SHIVA KUMAR\source\repos\BookStore\BookStore |url: |action: |
+2021-11-17 08:58:45.6660|0|INFO|BookStore.Controller.UserController|durgachandrasekhar3@gmail.comIs trying to login |url: |action: |
+2021-11-17 08:58:46.4719|0|INFO|BookStore.Controller.UserController|durgachandrasekhar3@gmail.com logged in successfully and the token generated is  |url: |action: |
+2021-11-17 12:38:49.1354|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |
+2021-11-17 12:38:49.2588|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |
+2021-11-17 12:38:49.2696|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\SHIVA KUMAR\source\repos\BookStore\BookStore |url: |action: |
+2021-11-17 12:39:29.6783|0|INFO|BookStore.Controller.UserController|durgachandrasekhar3@gmail.comis using forgot password |url: |action: |
+2021-11-17 12:39:31.7458|0|INFO|BookStore.Controller.UserController|Exception occured while using forgot password Could not find stored procedure 'StoreProcedurForgotPassword'. |url: |action: |
+2021-11-17 12:42:03.2182|0|INFO|BookStore.Controller.UserController|durgachandrasekhar3@gmail.comis using forgot password |url: |action: |
+2021-11-17 12:42:03.3570|0|INFO|BookStore.Controller.UserController|Exception occured while using forgot password Could not find stored procedure 'StoreProcedurForgotPassword'. |url: |action: |
+2021-11-17 12:50:54.6216|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |
+2021-11-17 12:50:54.6730|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |
+2021-11-17 12:50:54.6828|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\SHIVA KUMAR\source\repos\BookStore\BookStore |url: |action: |
+2021-11-17 12:51:13.9309|0|INFO|BookStore.Controller.UserController|durgachandrasekhar3@gmail.comis using forgot password |url: |action: |
+2021-11-17 12:51:14.4418|0|INFO|BookStore.Controller.UserController|Exception occured while using forgot password Could not find stored procedure 'StoreProcedureForgotPassword'. |url: |action: |
+2021-11-17 12:59:02.5524|0|INFO|BookStore.Controller.UserController|durgachandrasekhar3@gmail.comis using forgot password |url: |action: |
+2021-11-17 12:59:02.7320|0|INFO|BookStore.Controller.UserController|Exception occured while using forgot password Could not find stored procedure 'spForgotPassword'. |url: |action: |
+2021-11-17 13:01:10.1456|0|INFO|BookStore.Controller.UserController|durgachandrasekhar3@gmail.cois using forgot password |url: |action: |
+2021-11-17 13:01:10.2892|0|INFO|BookStore.Controller.UserController|Exception occured while using forgot password Could not find stored procedure 'spForgotPassword'. |url: |action: |
+2021-11-17 13:01:15.4561|0|INFO|BookStore.Controller.UserController|durgachandrasekhar3@gmail.comis using forgot password |url: |action: |
+2021-11-17 13:01:15.5913|0|INFO|BookStore.Controller.UserController|Exception occured while using forgot password Could not find stored procedure 'spForgotPassword'. |url: |action: |
+2021-11-17 13:26:35.1941|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |
+2021-11-17 13:26:35.2492|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |
+2021-11-17 13:26:35.2591|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\SHIVA KUMAR\source\repos\BookStore\BookStore |url: |action: |
+2021-11-17 13:27:48.5207|0|INFO|BookStore.Controller.UserController|BookStoreModel.ResetPasswordis using reset password |url: |action: |
+2021-11-17 13:27:49.2457|0|INFO|BookStore.Controller.UserController|Password Reset Failed! |url: |action: |
+2021-11-17 13:28:37.8370|0|INFO|BookStore.Controller.UserController|durgachandrasekhar3@gmail.comIs trying to login |url: |action: |
+2021-11-17 13:28:38.3650|0|INFO|BookStore.Controller.UserController|durgachandrasekhar3@gmail.com logged in successfully and the token generated is  |url: |action: |
+2021-11-17 13:28:52.6819|0|INFO|BookStore.Controller.UserController|BookStoreModel.ResetPasswordis using reset password |url: |action: |
+2021-11-17 13:28:52.7203|0|INFO|BookStore.Controller.UserController|Password Reset Failed! |url: |action: |
+2021-11-17 15:36:07.9838|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |
+2021-11-17 15:36:08.1469|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |
+2021-11-17 15:36:08.1638|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\SHIVA KUMAR\source\repos\BookStore\BookStore |url: |action: |
+2021-11-17 15:46:26.8487|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |
+2021-11-17 15:46:26.9371|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |
+2021-11-17 15:46:26.9573|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\SHIVA KUMAR\source\repos\BookStore\BookStore |url: |action: |
+2021-11-17 15:56:57.0136|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |
+2021-11-17 15:56:57.0730|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |
+2021-11-17 15:56:57.0837|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\SHIVA KUMAR\source\repos\BookStore\BookStore |url: |action: |
+2021-11-17 18:54:31.7526|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |
+2021-11-17 18:54:31.8482|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |
+2021-11-17 18:54:31.8638|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\SHIVA KUMAR\source\repos\BookStore\BookStore |url: |action: |
+2021-11-17 18:55:28.0363|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |
+2021-11-17 18:55:28.1333|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |
+2021-11-17 18:55:28.1333|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\SHIVA KUMAR\source\repos\BookStore\BookStore |url: |action: |
+2021-11-17 22:47:15.3317|1|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.Exception: Book Not Available
+   at BookStoreManger.Manager.BookManager.GetBookDetails(Int32 bookId) in C:\Users\SHIVA KUMAR\source\repos\BookStore\BookStoreManger\Manager\BookManager.cs:line 52
+   at BookStore.Controller.BookController.GetBookDetails(Int32 bookId) in C:\Users\SHIVA KUMAR\source\repos\BookStore\BookStore\Controller\BookController.cs:line 75
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)|url: |action: |
+2021-11-17 22:48:33.5482|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |
+2021-11-17 22:48:33.5925|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |
+2021-11-17 22:48:33.6022|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\SHIVA KUMAR\source\repos\BookStore\BookStore |url: |action: |
