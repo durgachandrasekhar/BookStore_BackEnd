@@ -97,31 +97,31 @@ namespace BookStore.Controller
             }
         }
 
-        //[HttpPost]
-        //[Route("api/ForgotPassword")]
-        //public IActionResult ForgotPassword(string email)
-        //{
-        //    try
-        //    {
-        //        this.logger.LogInformation(email + "is using forgot password");
-        //        string resultMessage = this.manager.ForgotPassword(email);
-        //        if (resultMessage.Equals("Mail sent Succefully"))
-        //        {
-        //            this.logger.LogInformation(resultMessage);
-        //            return this.Ok(new ResponseModel<string>() { Status = true, Message = resultMessage });
-        //        }
-        //        else
-        //        {
-        //            this.logger.LogInformation(resultMessage);
-        //            return this.BadRequest(new ResponseModel<string>() { Status = false, Message = resultMessage });
-        //        }
-        //    }
-        //    catch (Exception ex)
-        //    {
-        //        this.logger.LogInformation("Exception occured while using forgot password " + ex.Message);
-        //        return this.NotFound(new ResponseModel<string>() { Status = false, Message = ex.Message });
-        //    }
-        //}
+        [HttpPost]
+        [Route("api/ForgotPassword")]
+        public IActionResult ForgotPassword(string email)
+        {
+            try
+            {
+                this.logger.LogInformation(email + "is using forgot password");
+                string resultMessage = this.manager.ForgotPassword(email);
+                if (resultMessage.Equals("Mail sent Succefully"))
+                {
+                    this.logger.LogInformation(resultMessage);
+                    return this.Ok(new ResponseModel<string>() { Status = true, Message = resultMessage });
+                }
+                else
+                {
+                    this.logger.LogInformation(resultMessage);
+                    return this.BadRequest(new ResponseModel<string>() { Status = false, Message = resultMessage });
+                }
+            }
+            catch (Exception ex)
+            {
+                this.logger.LogInformation("Exception occured while using forgot password " + ex.Message);
+                return this.NotFound(new ResponseModel<string>() { Status = false, Message = ex.Message });
+            }
+        }
 
         //[HttpPut]
         //[Route("api/ResetPassword")]

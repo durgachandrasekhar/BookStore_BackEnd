@@ -143,55 +143,56 @@ namespace BookStoreRepository.Repository
             }
         }
 
-        // public string ForgotPassword(string email)
-        // {
-        //     sqlConnection = new SqlConnection(this.configuration.GetConnectionString("UserDbConnection"));
-        //     try
-        //     {
-        //         using (sqlConnection)
-        //         {
-        //             string storeprocedure = "spForgotPassword";
-        //             SqlCommand sqlCommand = new SqlCommand(storeprocedure, sqlConnection);
-        //             sqlCommand.CommandType = CommandType.StoredProcedure;
-        //             sqlCommand.Parameters.AddWithValue("@email", email);
-        //             sqlCommand.Parameters.Add("@user", SqlDbType.Int).Direction = ParameterDirection.Output;
-        //             sqlConnection.Open();
-        //             sqlCommand.ExecuteNonQuery();
+        public string ForgotPassword(string email)
+        {
+            sqlConnection = new SqlConnection(this.configuration.GetConnectionString("UserDbConnection"));
+            try
+            {
+                using (sqlConnection)
+                {
+                    string storeprocedure = "spForgotPassword";
+                    SqlCommand sqlCommand = new SqlCommand(storeprocedure, sqlConnection);
+                    sqlCommand.CommandType = CommandType.StoredProcedure;
+                    sqlCommand.Parameters.AddWithValue("@email", email);
+                    sqlCommand.Parameters.Add("@user", SqlDbType.Int).Direction = ParameterDirection.Output;
+                    sqlConnection.Open();
+                    sqlCommand.ExecuteNonQuery();
 
-        //             var id = sqlCommand.Parameters["@user"].Value;
-        //             if (!(id is DBNull))
-        //             {
-        //                 string token = this.GenerateToken(email);
+                    var id = sqlCommand.Parameters["@user"].Value;
+                    if (!(id is DBNull))
+                    {
+                        string token = this.GenerateToken(email);
 
-        //                 // Connection to Redis Server
-        //                 ConnectionMultiplexer connectionMultiplexer = ConnectionMultiplexer.Connect("127.0.0.1:6379");
-        //                 IDatabase database = connectionMultiplexer.GetDatabase();
+                        // Connection to Redis Server
+                        ConnectionMultiplexer connectionMultiplexer = ConnectionMultiplexer.Connect("127.0.0.1:6379");
+                        IDatabase database = connectionMultiplexer.GetDatabase();
 
-        //                 // Set values to the Redis cache
-        //                 database.StringSet(key: Convert.ToInt32(id).ToString(), token);
+                        // Set values to the Redis cache
+                        database.StringSet(key: Convert.ToInt32(id).ToString(), token);
 
-        //                 string msgBody = "You are receiving this mail because you(or someone else) have requested the reset of the password for your account.\n\n" +
-        //                             "Please click on the following link, or paste this into your browser to complete the process:\n\n" +
-        //                             "http://localhost:4200/reset-password/" + $"{token}/{Convert.ToInt32(id).ToString()}" + "\n\n" +
-        //                             "If you did not request this, please ignore this email and your password will remain unchanged.\n";
+                        string msgBody = "You are receiving this mail because you(or someone else) have requested the reset of the password for your account.\n\n" +
+                                    "Please click on the following link, or paste this into your browser to complete the process:\n\n" +
+                                    "http://localhost:4200/reset-password/" + $"{token}/{Convert.ToInt32(id).ToString()}" + "\n\n" +
+                                    "If you did not request this, please ignore this email and your password will remain unchanged.\n";
 
 
-        //                 this.service.SendMailSmtp(email, msgBody);
-        //                 return "Email has been sent";
-        //             }
-        //             return "User Doesnot Exists";
-        //         }
+                        this.service.SendMailSmtp(email, msgBody);
+                        return "Email has been sent";
+                    }
+                    return "User Doesnot Exists";
+                }
 
-        //     }
-        //     catch (Exception ex)
-        //     {
-        //         throw new Exception(ex.Message);
-        //     }
-        //     finally
-        //     {
-        //         sqlConnection.Close();
-        //     }
-        // }
+            }
+            catch (Exception ex)
+            {
+                throw new Exception(ex.Message);
+            }
+            finally
+            {
+                sqlConnection.Close();
+            }
+        }
+
         //public bool ResetPassword(ResetPassword resetpassword)
         // {
         //     sqlConnection = new SqlConnection(this.configuration.GetConnectionString("UserDbConnection"));

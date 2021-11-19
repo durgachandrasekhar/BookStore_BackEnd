@@ -1,11 +1,11 @@
-﻿//using System;
-//using System.Collections.Generic;
-//using System.Text;
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
 
-//namespace BookStoreModel
-//{
-//    public class ForgotPassword
-//    {
-//        public string Email { get; set; }
-//    }
-//}
+namespace BookStoreModel
+{
+    public class ForgotPassword
+    {
+        public string Email { get; set; }
+    }
+}

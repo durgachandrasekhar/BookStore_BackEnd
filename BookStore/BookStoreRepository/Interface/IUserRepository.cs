@@ -9,7 +9,7 @@ namespace BookStoreRepository.Interface
     {
         bool Register(UserModel user);
         string Login(LoginModel loginDetails);
-        //string ForgotPassword(string email);
+        string ForgotPassword(string email);
         //bool ResetPassword(ResetPassword resetpassword);
         string GenerateToken(string userName);
     }
