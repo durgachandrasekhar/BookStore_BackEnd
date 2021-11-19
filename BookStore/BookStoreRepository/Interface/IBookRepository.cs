@@ -13,7 +13,7 @@ namespace BookStoreRepository.Interface
         BookModel GetBookDetails(int bookId);
         bool UpdateBooks(BookModel bookDetails);
         public bool RemoveBooks(int bookId);
-        //bool AddCustomerFeedBack(FeedBackModel feedbackModel);
-        //List<FeedBackModel> GetCustomerFeedBack(int bookid);
+        bool AddCustomerFeedBack(FeedBackModel feedbackModel);
+        List<FeedBackModel> GetCustomerFeedBack(int bookid);
     }
 }

@@ -77,29 +77,29 @@ namespace BookStoreManger.Manager
             }
         }
 
-        //public bool AddCustomerFeedBack(FeedBackModel feedbackModel)
-        //{
-        //    try
-        //    {
-        //        return this.repository.AddCustomerFeedBack(feedbackModel);
-        //    }
-        //    catch (Exception e)
-        //    {
-        //        throw new Exception(e.Message);
-        //    }
-        //}
-        //public List<FeedBackModel> GetCustomerFeedBack(int bookid)
-        //{
+        public bool AddCustomerFeedBack(FeedBackModel feedbackModel)
+        {
+            try
+            {
+                return this.repository.AddCustomerFeedBack(feedbackModel);
+            }
+            catch (Exception e)
+            {
+                throw new Exception(e.Message);
+            }
+        }
+        public List<FeedBackModel> GetCustomerFeedBack(int bookid)
+        {
 
-        //    try
-        //    {
-        //        return this.repository.GetCustomerFeedBack(bookid);
-        //    }
-        //    catch (Exception ex)
-        //    {
-        //        throw new Exception(ex.Message);
-        //    }
-        //}
+            try
+            {
+                return this.repository.GetCustomerFeedBack(bookid);
+            }
+            catch (Exception ex)
+            {
+                throw new Exception(ex.Message);
+            }
+        }
 
     }
 }

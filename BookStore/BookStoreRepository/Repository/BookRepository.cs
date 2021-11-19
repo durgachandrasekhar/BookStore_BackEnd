@@ -224,76 +224,76 @@ namespace BookStoreRepository.Repository
 
         }
 
-        //public bool AddCustomerFeedBack(FeedBackModel feedbackModel)
-        //{
-        //    sqlConnection = new SqlConnection(this.Configuration.GetConnectionString("UserDbConnection"));
-        //    using (sqlConnection)
-        //        try
-        //        {
+        public bool AddCustomerFeedBack(FeedBackModel feedbackModel)
+        {
+            sqlConnection = new SqlConnection(this.Configuration.GetConnectionString("UserDbConnection"));
+            using (sqlConnection)
+                try
+                {
 
-        //            SqlCommand sqlCommand = new SqlCommand("storeprocedureAddFeedback", sqlConnection);
-        //            sqlCommand.CommandType = System.Data.CommandType.StoredProcedure;
-        //            sqlConnection.Open();
-        //            sqlCommand.Parameters.AddWithValue("@BookId", feedbackModel.bookId);
-        //            sqlCommand.Parameters.AddWithValue("@UserId", feedbackModel.userId);
-        //            sqlCommand.Parameters.AddWithValue("@Rating", feedbackModel.rating);
-        //            sqlCommand.Parameters.AddWithValue("@FeedBack", feedbackModel.feedback);
+                    SqlCommand sqlCommand = new SqlCommand("storeprocedureAddFeedback", sqlConnection);
+                    sqlCommand.CommandType = System.Data.CommandType.StoredProcedure;
+                    sqlConnection.Open();
+                    sqlCommand.Parameters.AddWithValue("@BookId", feedbackModel.bookId);
+                    sqlCommand.Parameters.AddWithValue("@UserId", feedbackModel.userId);
+                    sqlCommand.Parameters.AddWithValue("@Rating", feedbackModel.rating);
+                    sqlCommand.Parameters.AddWithValue("@FeedBack", feedbackModel.feedback);
 
 
-        //            int result = sqlCommand.ExecuteNonQuery();
+                    int result = sqlCommand.ExecuteNonQuery();
 
-        //            if (result > 0)
-        //                return true;
-        //            else
-        //                return false;
+                    if (result > 0)
+                        return true;
+                    else
+                        return false;
 
-        //        }
-        //        catch (Exception e)
-        //        {
-        //            throw new Exception(e.Message);
-        //        }
-        //        finally
-        //        {
-        //            sqlConnection.Close();
-        //        }
-        //}
-        //public List<FeedBackModel> GetCustomerFeedBack(int bookid)
-        //{
-        //    sqlConnection = new SqlConnection(this.Configuration.GetConnectionString("UserDbConnection"));
-        //    try
-        //    {
-        //        sqlConnection.Open();
-        //        SqlCommand cmd = new SqlCommand("StoreProcedurGetCustomerFeedback", sqlConnection)
-        //        {
-        //            CommandType = CommandType.StoredProcedure
-        //        };
-        //        cmd.Parameters.AddWithValue("@bookid", bookid);
-        //        List<FeedBackModel> feedbackList = new List<FeedBackModel>();
-        //        SqlDataReader reader = cmd.ExecuteReader();
-        //        if (reader.HasRows)
-        //        {
-        //            while (reader.Read())
-        //            {
-        //                FeedBackModel feedbackdetails = new FeedBackModel();
-        //                feedbackdetails.userId = reader.GetInt32(0);
-        //                feedbackdetails.customerName = reader.GetString("FullName");
-        //                feedbackdetails.feedback = reader.GetString("Feedback");
-        //                feedbackdetails.rating = reader.GetDouble("Rating");
-        //                feedbackList.Add(feedbackdetails);
-        //            }
+                }
+                catch (Exception e)
+                {
+                    throw new Exception(e.Message);
+                }
+                finally
+                {
+                    sqlConnection.Close();
+                }
+        }
+        public List<FeedBackModel> GetCustomerFeedBack(int bookid)
+        {
+            sqlConnection = new SqlConnection(this.Configuration.GetConnectionString("UserDbConnection"));
+            try
+            {
+                sqlConnection.Open();
+                SqlCommand cmd = new SqlCommand("StoreProcedurGetCustomerFeedback", sqlConnection)
+                {
+                    CommandType = CommandType.StoredProcedure
+                };
+                cmd.Parameters.AddWithValue("@bookid", bookid);
+                List<FeedBackModel> feedbackList = new List<FeedBackModel>();
+                SqlDataReader reader = cmd.ExecuteReader();
+                if (reader.HasRows)
+                {
+                    while (reader.Read())
+                    {
+                        FeedBackModel feedbackdetails = new FeedBackModel();
+                        feedbackdetails.userId = reader.GetInt32(0);
+                        feedbackdetails.customerName = reader.GetString("FullName");
+                        feedbackdetails.feedback = reader.GetString("Feedback");
+                        feedbackdetails.rating = reader.GetDouble("Rating");
+                        feedbackList.Add(feedbackdetails);
+                    }
 
-        //        }
-        //        return feedbackList;
-        //    }
-        //    catch (Exception e)
-        //    {
-        //        throw new Exception(e.Message);
-        //    }
-        //    finally
-        //    {
-        //        sqlConnection.Close();
-        //    }
-        //}
+                }
+                return feedbackList;
+            }
+            catch (Exception e)
+            {
+                throw new Exception(e.Message);
+            }
+            finally
+            {
+                sqlConnection.Close();
+            }
+        }
 
     }
 }
