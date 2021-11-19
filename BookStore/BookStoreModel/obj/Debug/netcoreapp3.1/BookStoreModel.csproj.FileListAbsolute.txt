@@ -12,3 +12,17 @@ C:\Users\SHIVA KUMAR\source\repos\BookStore\BookStoreModel\obj\Debug\netcoreapp3
 C:\Users\SHIVA KUMAR\source\repos\BookStore\BookStoreModel\obj\Debug\netcoreapp3.1\BookStoreModel.dll
 C:\Users\SHIVA KUMAR\source\repos\BookStore\BookStoreModel\obj\Debug\netcoreapp3.1\BookStoreModel.pdb
 C:\Users\SHIVA KUMAR\source\repos\BookStore\BookStoreModel\obj\Debug\netcoreapp3.1\BookStoreModel.genruntimeconfig.cache
+C:\Users\SHIVA KUMAR\source\repos\New folder (2)\BookStore\BookStoreModel\bin\Debug\netcoreapp3.1\BookStoreModel.exe
+C:\Users\SHIVA KUMAR\source\repos\New folder (2)\BookStore\BookStoreModel\bin\Debug\netcoreapp3.1\BookStoreModel.deps.json
+C:\Users\SHIVA KUMAR\source\repos\New folder (2)\BookStore\BookStoreModel\bin\Debug\netcoreapp3.1\BookStoreModel.runtimeconfig.json
+C:\Users\SHIVA KUMAR\source\repos\New folder (2)\BookStore\BookStoreModel\bin\Debug\netcoreapp3.1\BookStoreModel.runtimeconfig.dev.json
+C:\Users\SHIVA KUMAR\source\repos\New folder (2)\BookStore\BookStoreModel\bin\Debug\netcoreapp3.1\BookStoreModel.dll
+C:\Users\SHIVA KUMAR\source\repos\New folder (2)\BookStore\BookStoreModel\bin\Debug\netcoreapp3.1\BookStoreModel.pdb
+C:\Users\SHIVA KUMAR\source\repos\New folder (2)\BookStore\BookStoreModel\obj\Debug\netcoreapp3.1\BookStoreModel.csproj.AssemblyReference.cache
+C:\Users\SHIVA KUMAR\source\repos\New folder (2)\BookStore\BookStoreModel\obj\Debug\netcoreapp3.1\BookStoreModel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SHIVA KUMAR\source\repos\New folder (2)\BookStore\BookStoreModel\obj\Debug\netcoreapp3.1\BookStoreModel.AssemblyInfoInputs.cache
+C:\Users\SHIVA KUMAR\source\repos\New folder (2)\BookStore\BookStoreModel\obj\Debug\netcoreapp3.1\BookStoreModel.AssemblyInfo.cs
+C:\Users\SHIVA KUMAR\source\repos\New folder (2)\BookStore\BookStoreModel\obj\Debug\netcoreapp3.1\BookStoreModel.csproj.CoreCompileInputs.cache
+C:\Users\SHIVA KUMAR\source\repos\New folder (2)\BookStore\BookStoreModel\obj\Debug\netcoreapp3.1\BookStoreModel.dll
+C:\Users\SHIVA KUMAR\source\repos\New folder (2)\BookStore\BookStoreModel\obj\Debug\netcoreapp3.1\BookStoreModel.pdb
+C:\Users\SHIVA KUMAR\source\repos\New folder (2)\BookStore\BookStoreModel\obj\Debug\netcoreapp3.1\BookStoreModel.genruntimeconfig.cache

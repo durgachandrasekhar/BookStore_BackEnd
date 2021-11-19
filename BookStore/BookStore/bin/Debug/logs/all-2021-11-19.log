@@ -1,0 +1,12 @@
+2021-11-19 21:55:12.9454|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-11-19 21:55:13.1046|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-11-19 21:55:13.1046|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\SHIVA KUMAR\source\repos\New folder (2)\BookStore\BookStore 
+2021-11-19 21:58:43.0756|0|INFO|BookStore.Controller.UserController|durgachandrasekhar3@gmail.comIs trying to login 
+2021-11-19 21:58:59.9492|0|INFO|BookStore.Controller.UserController|Exception occured while logging in It was not possible to connect to the redis server(s). Error connecting right now. To allow this multiplexer to continue retrying until it's able to connect, use abortConnect=false in your connection string or AbortOnConnectFail=false; in your code. 
+2021-11-19 21:59:12.5691|0|INFO|BookStore.Controller.UserController|durgachandrasekhar3@gmail.comIs trying to login 
+2021-11-19 21:59:13.1378|0|INFO|BookStore.Controller.UserController|durgachandrasekhar3@gmail.com logged in successfully and the token generated is  
+2021-11-19 22:11:37.3933|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-11-19 22:11:37.4889|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-11-19 22:11:37.5049|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\SHIVA KUMAR\source\repos\New folder (2)\BookStore\BookStore 
+2021-11-19 22:12:45.5308|0|INFO|BookStore.Controller.UserController|durgachandrasekhar3@gmail.comIs trying to login 
+2021-11-19 22:12:46.1957|0|INFO|BookStore.Controller.UserController|durgachandrasekhar3@gmail.com logged in successfully and the token generated is  
