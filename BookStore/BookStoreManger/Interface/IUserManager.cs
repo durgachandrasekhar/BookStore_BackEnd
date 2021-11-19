@@ -8,10 +8,10 @@ namespace BookStoreManger.Interface
     public interface IUserManager
     {
         bool Register(UserModel user);
-        //string Login(LoginModel loginDetails);
+        string Login(LoginModel loginDetails);
         //string ForgotPassword(string email);
         //bool ResetPassword(ResetPassword resetpassword);
-        //string GenerateToken(string userName);
+        string GenerateToken(string userName);
 
     }
 }

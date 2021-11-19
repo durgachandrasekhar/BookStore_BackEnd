@@ -26,17 +26,17 @@ namespace BookStoreManger.Manager
             }
         }
 
-        //public string Login(LoginModel loginDetails)
-        //{
-        //    try
-        //    {
-        //        return this.repository.Login(loginDetails);
-        //    }
-        //    catch (Exception ex)
-        //    {
-        //        throw new Exception(ex.Message);
-        //    }
-        //}
+        public string Login(LoginModel loginDetails)
+        {
+            try
+            {
+                return this.repository.Login(loginDetails);
+            }
+            catch (Exception ex)
+            {
+                throw new Exception(ex.Message);
+            }
+        }
 
         //public string ForgotPassword(string email)
         //{
@@ -62,16 +62,16 @@ namespace BookStoreManger.Manager
         //    }
         //}
 
-        //public string GenerateToken(string userName)
-        //{
-        //    try
-        //    {
-        //        return this.repository.GenerateToken(userName);
-        //    }
-        //    catch (Exception ex)
-        //    {
-        //        throw new Exception(ex.Message);
-        //    }
-        //}
+        public string GenerateToken(string userName)
+        {
+            try
+            {
+                return this.repository.GenerateToken(userName);
+            }
+            catch (Exception ex)
+            {
+                throw new Exception(ex.Message);
+            }
+        }
     }
 }

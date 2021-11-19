@@ -56,46 +56,46 @@ namespace BookStore.Controller
             }
         }
 
-        //[HttpPost]
-        //[Route("api/login")]
+        [HttpPost]
+        [Route("api/login")]
 
-        //public IActionResult Login(LoginModel loginDetails)
-        //{
-        //    try
-        //    {
-        //        this.logger.LogInformation(loginDetails.Email + "Is trying to login");
-        //        string resultMessage = this.manager.Login(loginDetails);
-        //        if (resultMessage.Equals("Login is Successfull"))
-        //        {
-        //            this.logger.LogInformation(loginDetails.Email + " logged in successfully and the token generated is ");
-        //            ConnectionMultiplexer connectionMultiplexer = ConnectionMultiplexer.Connect("127.0.0.1:6379");
-        //            IDatabase database = connectionMultiplexer.GetDatabase();
+        public IActionResult Login(LoginModel loginDetails)
+        {
+            try
+            {
+                this.logger.LogInformation(loginDetails.Email + "Is trying to login");
+                string resultMessage = this.manager.Login(loginDetails);
+                if (resultMessage.Equals("Login is Successfull"))
+                {
+                    this.logger.LogInformation(loginDetails.Email + " logged in successfully and the token generated is ");
+                    ConnectionMultiplexer connectionMultiplexer = ConnectionMultiplexer.Connect("127.0.0.1:6379");
+                    IDatabase database = connectionMultiplexer.GetDatabase();
 
-        //            Dictionary<string, string> data = new Dictionary<string, string>();
-        //            data.Add("_id", database.StringGet("userID"));
-        //            data.Add("fullName",database.StringGet("FullName"));
-        //            data.Add("phone",database.StringGet("Phone"));
-        //            data.Add("email", loginDetails.Email);
-        //            data.Add("accessToken", this.manager.GenerateToken(loginDetails.Email));
-        //            return this.Ok(new { Status = true, Message = resultMessage, result = data });
-        //        }
-        //        else if (resultMessage.Equals("Invalid Password"))
-        //        {
-        //            this.logger.LogInformation(loginDetails.Email + " " + resultMessage);
-        //            return this.BadRequest(new ResponseModel<string>() { Status = false, Message = resultMessage });
-        //        }
-        //        else
-        //        {
-        //            this.logger.LogInformation(loginDetails.Email + " " + resultMessage);
-        //            return this.BadRequest(new ResponseModel<string>() { Status = false, Message = resultMessage });
-        //        }
-        //    }
-        //    catch (Exception ex)
-        //    {
-        //        this.logger.LogInformation("Exception occured while logging in " + ex.Message);
-        //        return this.NotFound(new ResponseModel<string>() { Status = false, Message = ex.Message });
-        //    }
-        //}
+                    Dictionary<string, string> data = new Dictionary<string, string>();
+                    data.Add("_id", database.StringGet("userID"));
+                    data.Add("fullName", database.StringGet("FullName"));
+                    data.Add("phone", database.StringGet("Phone"));
+                    data.Add("email", loginDetails.Email);
+                    data.Add("accessToken", this.manager.GenerateToken(loginDetails.Email));
+                    return this.Ok(new { Status = true, Message = resultMessage, result = data });
+                }
+                else if (resultMessage.Equals("Invalid Password"))
+                {
+                    this.logger.LogInformation(loginDetails.Email + " " + resultMessage);
+                    return this.BadRequest(new ResponseModel<string>() { Status = false, Message = resultMessage });
+                }
+                else
+                {
+                    this.logger.LogInformation(loginDetails.Email + " " + resultMessage);
+                    return this.BadRequest(new ResponseModel<string>() { Status = false, Message = resultMessage });
+                }
+            }
+            catch (Exception ex)
+            {
+                this.logger.LogInformation("Exception occured while logging in " + ex.Message);
+                return this.NotFound(new ResponseModel<string>() { Status = false, Message = ex.Message });
+            }
+        }
 
         //[HttpPost]
         //[Route("api/ForgotPassword")]
