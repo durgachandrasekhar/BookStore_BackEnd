@@ -11,25 +11,18 @@ CREATE TABLE UserDetails(
 
 SELECT * FROM [UserDetails]
 
-CREATE PROCEDURE spAddUserDetails
+CREATE PROCEDURE storprocedureAddUserDetails
 (
 @address varchar(600),
 @city varchar(50),
 @state varchar(50),
 @type varchar(10),
-@userId int,
-@result int output
+@userId int
 )
 AS
 BEGIN
-BEGIN TRY
 INSERT INTO UserDetails(address,city,state,type,userId)
 values(@address,@city,@state,@type,@userId);
-set @result=1;
-END TRY
-BEGIN CATCH 
-   set @result=0;
-END CATCH
 END
 
 CREATE procedure spGetUSerDetails

@@ -27,7 +27,7 @@ namespace BookStoreRepository.Repository
                 try
                 {
 
-                    SqlCommand sqlCommand = new SqlCommand("spAddUserDetails", sqlConnection);
+                    SqlCommand sqlCommand = new SqlCommand("storprocedureAddUserDetails", sqlConnection);
 
                     sqlCommand.CommandType = System.Data.CommandType.StoredProcedure;
 

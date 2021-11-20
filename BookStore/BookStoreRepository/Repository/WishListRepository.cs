@@ -23,7 +23,7 @@ namespace BookStoreRepository.Repository
                 try
                 {
 
-                    SqlCommand sqlCommand = new SqlCommand("spAddWishList", sqlConnection);
+                    SqlCommand sqlCommand = new SqlCommand("[dbo].[storeprocedureAddWishList]", sqlConnection);
 
                     sqlCommand.CommandType = System.Data.CommandType.StoredProcedure;
 
@@ -58,7 +58,7 @@ namespace BookStoreRepository.Repository
                 try
                 {
 
-                    SqlCommand sqlCommand = new SqlCommand("spDeleteWishList", sqlConnection);
+                    SqlCommand sqlCommand = new SqlCommand("storeprocedureDeleteWishList", sqlConnection);
 
                     sqlCommand.CommandType = System.Data.CommandType.StoredProcedure;
 

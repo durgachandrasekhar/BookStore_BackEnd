@@ -8,13 +8,12 @@ CREATE TABLE WishList(
 
 SELECT * FROM [WishList]
 
-Create PROC spAddWishList
+Create PROC storeprocedureAddWishList
 @UserId INT ,
-@BookId INT ,
-@result int output
+@BookId INT 
+
 AS
 BEGIN
-BEGIN TRY
 INSERT INTO WishList(
 UserId,
 BookId)
@@ -22,25 +21,14 @@ VALUES(
 @UserId  ,
 @BookId 
 );
-set @result=1;
-END TRY
-BEGIN CATCH
-   set @result=0;
-END CATCH
 END
 
-CREATE PROC spDeleteWishList
-@WishListId INT ,
-@result int output
+CREATE PROC storeprocedureDeleteWishList
+@WishListId INT 
+
 AS
 BEGIN
-BEGIN TRY
 Delete FROM WishList Where WishListId = @WishListId;
-set @result=1;
-END TRY
-BEGIN CATCH
-set @result=0;
-END CATCH
 END
 
 Create PROC spGetWishList

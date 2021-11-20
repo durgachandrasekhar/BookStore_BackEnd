@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace BookStore.Controller
 {
-    [Authorize]
+    
     public class WishListController : ControllerBase
     {
         private readonly IWishListManager manager;

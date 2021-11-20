@@ -1,0 +1,21 @@
+2021-11-20 07:27:08.3071|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-11-20 07:27:08.3852|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-11-20 07:27:08.3999|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\SHIVA KUMAR\source\repos\New folder (2)\BookStore\BookStore 
+2021-11-20 07:37:10.9027|0|INFO|BookStore.Controller.UserController|durgachandrasekhar3@gmail.comIs trying to login 
+2021-11-20 07:37:10.9340|0|INFO|BookStore.Controller.UserController|durgachandrasekhar3@gmail.com Incorrect Password 
+2021-11-20 07:37:17.1795|0|INFO|BookStore.Controller.UserController|durgachandrasekhar3@gmail.comIs trying to login 
+2021-11-20 07:37:17.9667|0|INFO|BookStore.Controller.UserController|durgachandrasekhar3@gmail.com logged in successfully and the token generated is  
+2021-11-20 08:55:14.6436|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-11-20 08:55:14.6941|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-11-20 08:55:14.7050|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\SHIVA KUMAR\source\repos\New folder (2)\BookStore\BookStore 
+2021-11-20 08:56:38.4333|0|INFO|BookStore.Controller.UserController|durgachandrasekhar3@gmail.comIs trying to login 
+2021-11-20 08:56:39.1065|0|INFO|BookStore.Controller.UserController|durgachandrasekhar3@gmail.com logged in successfully and the token generated is  
+2021-11-20 08:58:52.8755|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-11-20 08:58:52.9237|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-11-20 08:58:52.9237|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\SHIVA KUMAR\source\repos\New folder (2)\BookStore\BookStore 
+2021-11-20 08:59:39.5250|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-11-20 08:59:39.5829|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-11-20 08:59:39.5980|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\SHIVA KUMAR\source\repos\New folder (2)\BookStore\BookStore 
+2021-11-20 09:00:12.9688|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-11-20 09:00:13.0274|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-11-20 09:00:13.0397|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\SHIVA KUMAR\source\repos\New folder (2)\BookStore\BookStore 
