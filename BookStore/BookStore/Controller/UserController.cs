@@ -17,15 +17,15 @@ namespace BookStore.Controller
     {
         public readonly IUserManager manager;
 
-        private readonly IUserRepository repository;
+        //private readonly IUserRepository repository;
 
         private readonly ILogger<UserController> logger;
 
-        public UserController(IUserManager manager, ILogger<UserController> logger, IUserRepository repository)
+        public UserController(IUserManager manager, ILogger<UserController> logger)
         {
             this.manager = manager;
             this.logger = logger;
-            this.repository = repository;
+            
         }
 
         [HttpPost]
